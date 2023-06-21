@@ -1,0 +1,22 @@
+@media(max-width:1024px){
+    html {
+        font-size: 18px;
+    }
+    .container {
+        margin-inline: 3rem;
+    }
+    .header-wrap{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 768px){
+    html {
+        font-size: 15px;
+    }
+    .container {
+        margin-inline: 2rem;
+    }
+    .header-wrap{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
